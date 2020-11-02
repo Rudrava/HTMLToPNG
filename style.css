@@ -1,0 +1,69 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*The converter dosent work with normal html tags only with canvases*/
+/*.htmlImage{
+	height: 200px;
+	width: 25%;
+
+	padding: .5em;
+
+	border: 3px solid red;
+	background: yellow;
+
+	text-align: center;
+	font-size: 2rem;
+}
+
+.htmlImage > .square {
+	height: 100px;
+	width: 100px;
+
+	margin: auto;
+
+	border: 1px solid red;
+	background-color: green;
+}*/
+
+canvas {
+	background: green;
+
+	border: 1px solid red;
+}
+
+button {
+	margin: 1em;
+	padding: .3em;
+
+	font-size: 2rem;
+	color: #fff;
+
+	background-color: #333;
+}
+
+button:hover {
+	background-color: #312;
+}
+
+
+button:active {
+	background-color: #111;
+}
+
+
+
+
+
+
